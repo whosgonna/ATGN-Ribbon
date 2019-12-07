@@ -26,16 +26,16 @@
       ]
    },
    "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0"
+         }
+      },
       "configure" : {
          "requires" : {
             "Module::Build::Tiny" : "0.035"
          }
       },
-      "build" : {
-          "requires" : {
-              "Module::Build::Tiny" : "0.035"
-          }
-      }, 
       "develop" : {
          "requires" : {
             "Test::CPAN::Meta" : "0",
@@ -47,7 +47,6 @@
       },
       "runtime" : {
          "requires" : {
-            "ATGN::Ribbon::Errors" : "0",
             "File::Spec::Functions" : "0",
             "HTTP::CookieJar::LWP" : "0",
             "LWP::UserAgent" : "0",
