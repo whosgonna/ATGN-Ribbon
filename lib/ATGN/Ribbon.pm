@@ -7,7 +7,7 @@ use HTTP::CookieJar::LWP;
 use XML::Hash;
 use ATGN::Ribbon::Errors;
 
-our $VERSION = "0.01";
+our $VERSION = "0.1.1";
 
 has host => (
     is       => 'ro',
@@ -135,6 +135,18 @@ sub get {
 sub post {
     my $self     = shift;
     $self->request( 'post', @_ );
+}
+
+
+sub put {
+    my $self     = shift;
+    $self->request( 'put', @_ );
+}
+
+
+sub delete {
+    my $self     = shift;
+    $self->request( 'delete', @_ );
 }
 
 
