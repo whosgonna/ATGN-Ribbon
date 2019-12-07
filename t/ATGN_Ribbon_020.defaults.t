@@ -13,8 +13,6 @@ my %args = (
 
 my $rbn = ATGN::Ribbon->new( %args );
 
-use Data::Printer;
-
 
 is( $rbn->scheme, 'https', "Scheme defaults to 'https'" );
 is( $rbn->host, $host, "Host is set to the value from \$host" );
