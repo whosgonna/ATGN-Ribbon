@@ -6,7 +6,7 @@ requires 'Types::Standard';
 requires 'LWP::UserAgent';
 requires 'HTTP::CookieJar::LWP';
 requires 'XML::Hash';
-requires 'ATGN::Ribbon::Errors';
+#requires 'ATGN::Ribbon::Errors';
 
 on 'test' => sub {
     requires 'Test::More', '0.98';
