@@ -1,6 +1,5 @@
 use strict;
 use warnings;
-use v5.12;
 use Test::More;
 use ATGN::Ribbon;
 

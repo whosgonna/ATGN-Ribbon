@@ -60,6 +60,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://gitlab.com/ben.kaufman/atgn-ribbon/issues"
+      },
+      "homepage" : "https://gitlab.com/ben.kaufman/atgn-ribbon",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://gitlab.com/ben.kaufman/atgn-ribbon.git",
+         "web" : "https://gitlab.com/ben.kaufman/atgn-ribbon"
+      }
+   },
    "version" : "0.01",
    "x_serialization_backend" : "JSON::PP version 4.04",
    "x_static_install" : 1
